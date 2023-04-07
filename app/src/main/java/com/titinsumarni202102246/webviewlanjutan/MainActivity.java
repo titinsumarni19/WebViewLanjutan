@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         WebAppInterface webAppInterface = new WebAppInterface(this, MainActivity.this);
         _webView1.addJavascriptInterface(webAppInterface, "Android");
 
-        String url = "https://webtitinsumarni.000webhostapp.com/";
+        //String url = "https://webtitinsumarni.000webhostapp.com/";
+        String url = "https://202102246titinsumarni.000webhostapp.com/";
         _webView1.loadUrl(url);
 
     }
